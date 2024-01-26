@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="loginform.css">
+        <title>Register Form</title>
+    </head>
+    
+    <body>
+        <header>
+            <h2 class="logo"><img src="RNHS.png" height="110px"></h2>
+            <nav class="navigation">
+            </nav>
+               </header>
+               <div class="wrapper">
+                <div class="form-box login">
+                    <h2>Registration</h2>
+                    <form action="Draft.html">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="radio-button">
+                         <p>Please select your Gender:</p><br>
+                        <input type="radio" id="male" name="Gender" value="Male">
+                        <label for="male">Male</label><br>  
+                        <input type="radio" id="female" name="Gender" value="Female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="others" name="Gender" value="Others">
+                        <label for="others">Others</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Agree to the terms & conditions</label>
+                    </div>
+                    <button type="register" class="btn"> Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?  <a href="Login.html" class="register-link">Login</a></p>
+                    </div>
+                </div>
+               </div>
+            </form>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
